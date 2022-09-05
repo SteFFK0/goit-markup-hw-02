@@ -1,0 +1,36 @@
+:root {
+--text-primary: #212121;
+--text-secondary: #757575;
+--text-active: #2196F3;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-primary)
+    background: #F5F5F5;
+    font-style: 400;
+}
+
+/* Навігація */
+.logo-part{
+    color: var(--text-active);
+}
+.logo {
+    font-family: serif;
+}
+.nav-link:hover,
+.nav-link:focus{
+ color: var(--text-active);
+}
+.nav-contacts:hover,
+.nav-contacts:focus {
+ color: var(--text-active);
+}
+.nav-link {
+color: var(--text-primary);
+list-style-type: none;
+}
+.nav-contacts {
+color: var(--text-secondary)
+}
