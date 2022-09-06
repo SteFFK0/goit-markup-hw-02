@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-primary)
     background: #F5F5F5;
-    font-style: 400;
+    font-style: normal;
 }
 
 /* Навігація */
@@ -17,14 +17,22 @@ body {
     color: var(--text-active);
 }
 .logo {
-    font-family: serif;
+    font-family: 'Raleway' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
 }
 .nav-link:hover,
 .nav-link:focus{
  color: var(--text-active);
 }
 .nav-contacts:hover,
-.nav-contacts:focus {
+.nav-contacts:focus,
+.contacts-footer:hover,
+.contacts-footer:focus {
  color: var(--text-active);
 }
 .nav-link {
@@ -33,4 +41,32 @@ list-style-type: none;
 }
 .nav-contacts {
 color: var(--text-secondary)
+}
+/* Кнопки */
+.button:hover,
+.button:focus {
+    background-color: var(--text-active);
+    color: #FFFFFF;;
+}
+
+/* Футер */
+address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}   
+.contacts-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contact-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
