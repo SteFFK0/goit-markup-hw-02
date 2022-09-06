@@ -4,26 +4,31 @@
 --text-active: #2196F3;
 
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-primary)
     background: #F5F5F5;
     font-style: normal;
+    font-weight: 400;
+}
+
+.header {
+    background-color: #FFFFFF;
 }
 
 /* Навігація */
-.logo-part{
+
+.logo-part {
     color: var(--text-active);
 }
 .logo {
-    font-family: 'Raleway' sans-serif;
-    font-style: normal;
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #000000;
+    text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -37,36 +42,49 @@ body {
 }
 .nav-link {
 color: var(--text-primary);
-list-style-type: none;
+text-decoration: none;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
 }
 .nav-contacts {
-color: var(--text-secondary)
+color: var(--text-secondary);
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
 }
 /* Кнопки */
-.button:hover,
-.button:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
     background-color: var(--text-active);
     color: #FFFFFF;;
 }
-
+.button-order {
+    background-color: var(--text-active);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+}
 /* Футер */
 address {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-}   
+    font-style: normal;
+}
+.address {
+    background-color: #2F303A;
+}
 .contacts-footer {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .contact-address {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
