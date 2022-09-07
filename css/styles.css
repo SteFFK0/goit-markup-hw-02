@@ -111,10 +111,24 @@ address {
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
-
 .paragraph {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-secondary);
+}
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.team-position {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
     letter-spacing: 0.03em;
     color: var(--text-secondary);
 }
