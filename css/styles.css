@@ -32,29 +32,28 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus{
- color: var(--text-active);
+    : var(--text-active);
 }
 .nav-contacts:hover,
 .nav-contacts:focus,
 .contacts-footer:hover,
 .contacts-footer:focus {
- color: var(--text-active);
+    color: var(--text-active);
 }
 .nav-link {
-color: var(--text-primary);
-text-decoration: none;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
 }
 .nav-contacts {
-color: var(--text-secondary);
-text-decoration: none;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 /* Кнопки */
 .button-portfolio:hover,
@@ -87,4 +86,35 @@ address {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+/* index.html */
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main-section {
+    background-color: #2F303A;
+}
+.secondary-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.sub-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.paragraph {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--text-secondary);
 }
