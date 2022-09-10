@@ -1,23 +1,23 @@
 :root {
---text-primary: #212121;
---text-secondary: #757575;
---text-active: #2196F3;
-
+--text-primary-color: #212121;
+--text-secondary-color: #757575;
+--text-active-color: #2196F3;
+--background-color: #FFFFFF;
 }
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--text-primary);
+    color: var(--text-primary-color);
     background: #F5F5F5;
     font-style: normal;
     font-weight: 400;
 }
 .header {
-    background-color: #FFFFFF;
+    background-color: var(--background-color);
 }
 
 /* Навігація */
 .logo-part {
-    color: var(--text-active);
+    color: var(--text-active-color);
 }
 .logo {
     font-family: 'Raleway';
@@ -30,13 +30,13 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus{
-    color: var(--text-active);
+    color: var(--text-active-color);
 }
 .nav-contacts:hover,
 .nav-contacts:focus,
 .contacts-footer:hover,
 .contacts-footer:focus {
-    color: var(--text-active);
+    color: var(--text-active-color);
 }
 .nav-link {
     text-decoration: none;
@@ -44,52 +44,51 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--text-primary);
+    color: var(--text-primary-color);
 }
 .nav-contacts {
-    color: var(--text-secondary);
+    color: var(--text-secondary-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--text-secondary);
+    color: var(--text-secondary-color);
 }
 
 /* Кнопки */
 .button-portfolio:hover,
 .button-portfolio:focus {
-    background-color: var(--text-active);
-    color: #FFFFFF;;
+    background-color: var(--text-active-color);
+    color: var(--background-color);
 }
 .button-portfolio {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
-    color: var(--text-primary);
+    color: var(--text-primary-color);
     cursor: pointer;
 }
 .button-order {
     font-family: 'Roboto';
-    background-color: var(--text-active);
-    color: #FFFFFF;
+    background-color: var(--text-active-color);
+    color: var(--background-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 /* Футер */
-address {
-    font-style: normal;
-}
 .logo-footer {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--background-color);
     text-decoration: none;
 }
 .address {
@@ -97,13 +96,15 @@ address {
 }
 .phisical-address {
     font-size: 14px;
+    font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--background-color);
 }
 .contacts-footer {
     font-size: 14px;
     line-height: 1.7;
+    font-style: normal;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -111,7 +112,7 @@ address {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--background-color);
 }
 
 /* index.html */
@@ -120,8 +121,9 @@ address {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--background-color);
 }
 .main-section {
     background-color: #2F303A;
@@ -142,7 +144,7 @@ address {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--text-secondary);
+    color: var(--text-secondary-color);
 }
 .team-member {
     font-weight: 500;
@@ -155,7 +157,7 @@ address {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--text-secondary);
+    color: var(--text-secondary-color);
 }
 
 /* portfolio.html */
@@ -164,13 +166,13 @@ address {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--text-primary)
+    color: var(--text-primary-color)
 }
 .product-category {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: var(--text-secondary);
+    color: var(--text-secondary-color);
 }
 ul {
     list-style: none;
