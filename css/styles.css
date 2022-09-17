@@ -23,6 +23,9 @@ h1, h2, h3, p, ul {
 .header {
     background-color: var(--background-color);
     outline: 2px solid #2196F3;
+    border: 1px solid #ECECEC;
+    display: flex;
+
 }
 
 .site-nav,
@@ -30,6 +33,10 @@ h1, h2, h3, p, ul {
     display: flex;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
 
 .site-nav .nav-link,
 .auth-nav .nav-contacts {
@@ -38,9 +45,12 @@ h1, h2, h3, p, ul {
     margin-top: 32px;
     margin-bottom: 32px;
 }
+.site-nav:last-child {
+    margin-right: 0;
+}
 
-/* .nav-link:not(:last-child) {
-    margin-right: 50px;
+/* a.nav-link:last-child {
+    margin-right: 0;
 } */
 
 .section {
@@ -52,6 +62,7 @@ h1, h2, h3, p, ul {
     color: var(--text-active-color);
 }
 .logo {
+    margin-right: 93px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -108,6 +119,7 @@ h1, h2, h3, p, ul {
 }
 .button-order {
     padding: 10px 32px;
+    margin-bottom: 200px;
     font-family: 'Roboto';
     background-color: var(--text-active-color);
     color: var(--background-color);
@@ -155,11 +167,13 @@ h1, h2, h3, p, ul {
 
 /* index.html */
 .main-title {
+    margin-top: 200px;
+    margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-align: center;
     text-transform: uppercase;
     color: var(--background-color);
 
@@ -167,8 +181,8 @@ h1, h2, h3, p, ul {
 }
 .main-section {
     background-color: #2F303A;
-
-        outline: 2px solid #2196F3;
+    text-align: center;
+    outline: 2px solid tomato;
 }
 .secondary-title {
     font-weight: 700;
@@ -179,12 +193,24 @@ h1, h2, h3, p, ul {
         outline: 2px solid #2196F3;
 }
 .sub-title {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
 
         outline: 2px solid #2196F3;
+}
+.adventage-list {
+    display: flex;
+
+}
+.list-item:not(:last-child) {
+    margin-right: 30px;
+
+}
+.list-item {
+    width: 270px;
 }
 .paragraph {
     font-size: 14px;
@@ -233,4 +259,5 @@ h1, h2, h3, p, ul {
 }
 ul {
     list-style: none;
+    padding: 0px;
 }
