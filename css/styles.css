@@ -4,6 +4,8 @@
 --text-active-color: #2196F3;
 --background-color: #FFFFFF;
 }
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-primary-color);
@@ -11,10 +13,38 @@ body {
     font-style: normal;
     font-weight: 400;
 }
+
+h1, h2, h3, p, ul {
+    margin: 0px;
+}
+.container {
+    width: 1200px;
+}
 .header {
     background-color: var(--background-color);
-    
     outline: 2px solid #2196F3;
+}
+
+.site-nav,
+.auth-nav {
+    display: flex;
+}
+
+
+.site-nav .nav-link,
+.auth-nav .nav-contacts {
+    display: block;
+    margin-right: 50px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+/* .nav-link:not(:last-child) {
+    margin-right: 50px;
+} */
+
+.section {
+    padding: 94px;
 }
 
 /* Навігація */
@@ -77,6 +107,7 @@ body {
     cursor: pointer;
 }
 .button-order {
+    padding: 10px 32px;
     font-family: 'Roboto';
     background-color: var(--text-active-color);
     color: var(--background-color);
