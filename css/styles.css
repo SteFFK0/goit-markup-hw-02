@@ -13,6 +13,8 @@ body {
 }
 .header {
     background-color: var(--background-color);
+    
+    outline: 2px solid #2196F3;
 }
 
 /* Навігація */
@@ -45,6 +47,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-primary-color);
+
+    outline: 2px solid #2196F3;
 }
 .nav-contacts {
     color: var(--text-secondary-color);
@@ -54,6 +58,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-secondary-color);
+
+        outline: 2px solid #2196F3;
 }
 
 /* Кнопки */
@@ -93,6 +99,7 @@ body {
 }
 .address {
     background-color: #2F303A;
+        outline: 2px solid #2196F3;
 }
 .phisical-address {
     font-size: 14px;
@@ -124,27 +131,37 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: var(--background-color);
+
+        outline: 2px solid #2196F3;
 }
 .main-section {
     background-color: #2F303A;
+
+        outline: 2px solid #2196F3;
 }
 .secondary-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+
+        outline: 2px solid #2196F3;
 }
 .sub-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+
+        outline: 2px solid #2196F3;
 }
 .paragraph {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
+
+        outline: 2px solid #2196F3;
 }
 .team-member {
     font-weight: 500;
@@ -152,6 +169,8 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+
+        outline: 2px solid #2196F3;
 }
 .team-position {
     font-size: 16px;
@@ -159,6 +178,8 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
+
+        outline: 2px solid #2196F3;
 }
 
 /* portfolio.html */
@@ -168,12 +189,16 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--text-primary-color)
+
+        outline: 2px solid #2196F3;
 }
 .product-category {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
+
+        outline: 2px solid #2196F3;
 }
 ul {
     list-style: none;
