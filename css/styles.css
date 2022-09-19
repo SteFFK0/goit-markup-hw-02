@@ -1,8 +1,8 @@
 :root {
---text-primary-color: #212121;
---text-secondary-color: #757575;
---text-active-color: #2196F3;
---background-color: #FFFFFF;
+    --text-primary-color: #212121;
+    --text-secondary-color: #757575;
+    --text-active-color: #2196F3;
+    --background-color: #FFFFFF;
 }
 
 
@@ -14,12 +14,18 @@ body {
     font-weight: 400;
 }
 
-h1, h2, h3, p, ul {
+h1,
+h2,
+h3,
+p,
+ul {
     margin: 0px;
 }
+
 .container {
     width: 1200px;
 }
+
 .header {
     background-color: var(--background-color);
     outline: 2px solid #2196F3;
@@ -45,6 +51,7 @@ nav {
     margin-top: 32px;
     margin-bottom: 32px;
 }
+
 .site-nav:last-child {
     margin-right: 0;
 }
@@ -61,6 +68,7 @@ nav {
 .logo-part {
     color: var(--text-active-color);
 }
+
 .logo {
     margin-right: 93px;
     font-family: 'Raleway';
@@ -71,16 +79,19 @@ nav {
     color: #000000;
     text-decoration: none;
 }
+
 .nav-link:hover,
-.nav-link:focus{
+.nav-link:focus {
     color: var(--text-active-color);
 }
+
 .nav-contacts:hover,
 .nav-contacts:focus,
 .contacts-footer:hover,
 .contacts-footer:focus {
     color: var(--text-active-color);
 }
+
 .nav-link {
     text-decoration: none;
     font-weight: 500;
@@ -91,6 +102,7 @@ nav {
 
     outline: 2px solid #2196F3;
 }
+
 .nav-contacts {
     color: var(--text-secondary-color);
     text-decoration: none;
@@ -100,7 +112,7 @@ nav {
     letter-spacing: 0.02em;
     color: var(--text-secondary-color);
 
-        outline: 2px solid #2196F3;
+    outline: 2px solid #2196F3;
 }
 
 /* Кнопки */
@@ -109,6 +121,7 @@ nav {
     background-color: var(--text-active-color);
     color: var(--background-color);
 }
+
 .button-portfolio {
     font-weight: 500;
     font-size: 16px;
@@ -117,6 +130,7 @@ nav {
     color: var(--text-primary-color);
     cursor: pointer;
 }
+
 .button-order {
     padding: 10px 32px;
     margin-bottom: 200px;
@@ -130,6 +144,7 @@ nav {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 /* Футер */
 .logo-footer {
     font-family: 'Raleway';
@@ -140,10 +155,12 @@ nav {
     color: var(--background-color);
     text-decoration: none;
 }
+
 .address {
     background-color: #2F303A;
-        outline: 2px solid #2196F3;
+    outline: 2px solid #2196F3;
 }
+
 .phisical-address {
     font-size: 14px;
     font-style: normal;
@@ -151,6 +168,7 @@ nav {
     letter-spacing: 0.03em;
     color: var(--background-color);
 }
+
 .contacts-footer {
     font-size: 14px;
     line-height: 1.7;
@@ -158,6 +176,7 @@ nav {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
 .contact-address {
     font-size: 14px;
     line-height: 1.7;
@@ -177,21 +196,24 @@ nav {
     text-transform: uppercase;
     color: var(--background-color);
 
-        outline: 2px solid #2196F3;
+    outline: 2px solid #2196F3;
 }
+
 .main-section {
     background-color: #2F303A;
     text-align: center;
     outline: 2px solid tomato;
 }
+
 .secondary-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
 
-        outline: 2px solid #2196F3;
+    outline: 2px solid #2196F3;
 }
+
 .sub-title {
     margin-bottom: 10px;
     font-weight: 700;
@@ -199,27 +221,32 @@ nav {
     line-height: 1.14;
     letter-spacing: 0.03em;
 
-        outline: 2px solid #2196F3;
+    outline: 2px solid #2196F3;
 }
+
 .adventage-list {
     display: flex;
 
 }
+
 .list-item:not(:last-child) {
     margin-right: 30px;
 
 }
+
 .list-item {
     width: 270px;
 }
+
 .paragraph {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
 
-        outline: 2px solid #2196F3;
+    outline: 2px solid #2196F3;
 }
+
 .team-member {
     font-weight: 500;
     font-size: 16px;
@@ -227,8 +254,9 @@ nav {
     text-align: center;
     letter-spacing: 0.03em;
 
-        outline: 2px solid #2196F3;
+    outline: 2px solid #2196F3;
 }
+
 .team-position {
     font-size: 16px;
     line-height: 1.19;
@@ -236,7 +264,7 @@ nav {
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
 
-        outline: 2px solid #2196F3;
+    outline: 2px solid #2196F3;
 }
 
 /* portfolio.html */
@@ -245,18 +273,18 @@ nav {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--text-primary-color)
-
-        outline: 2px solid #2196F3;
+    color: var(--text-primary-color) outline: 2px solid #2196F3;
 }
+
 .product-category {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
 
-        outline: 2px solid #2196F3;
+    outline: 2px solid #2196F3;
 }
+
 ul {
     list-style: none;
     padding: 0px;
